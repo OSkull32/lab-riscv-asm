@@ -1,0 +1,4 @@
+build/lab1_host
+build/host_output.txt
+.vscode/
+.DS_Store
