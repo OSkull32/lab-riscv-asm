@@ -3,9 +3,9 @@
 #   make all   - elf + dump
 #   make host  - собрать и запустить Си-версию
 #   make clean - удалить результаты сборки
-TOOLCHAIN ?= $(HOME)/riscv-tools/riscv32-unknown-elf/bin
-CC        := $(TOOLCHAIN)/riscv32-unknown-elf-gcc
-OBJDUMP   := $(TOOLCHAIN)/riscv32-unknown-elf-objdump
+TOOLCHAIN ?= $(HOME)/riscv-tools/riscv64-unknown-elf/bin
+CC        := $(TOOLCHAIN)/riscv64-unknown-elf-gcc
+OBJDUMP   := $(TOOLCHAIN)/riscv64-unknown-elf-objdump
 HOSTCC    := cc
 
 MARCH     := rv32i
